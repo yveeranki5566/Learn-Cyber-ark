@@ -50,6 +50,36 @@ cyber ark users and final save
 
 ![image](https://github.com/user-attachments/assets/80dfa8ee-08ba-4fd0-8c98-2e84f0924514)
 
+Active directory users for the domain
+
+![image](https://github.com/user-attachments/assets/ea560e0e-56ac-4d93-af20-70ea9f95aa54)
+
+Add users to cyberark user group in AD
+![image](https://github.com/user-attachments/assets/dae3f0af-5d7c-401b-af54-0a5f7856d398)
+
+Add user to cyber ark admin group in AD
+![image](https://github.com/user-attachments/assets/2dd1f59a-dc24-4109-a719-4bfc7fd19bca)
+
+Add user to cyber ark auditor group in AD
+![image](https://github.com/user-attachments/assets/b9287d61-8370-4c6d-bfbb-bf75fc2d481a)
+
+Login to pvwa with user credentials.
+![image](https://github.com/user-attachments/assets/4e80050d-2972-45ed-b063-b99126f59099)
+
+User dashboard after loggin in
+![image](https://github.com/user-attachments/assets/22a5a1c8-ac7b-415e-8bf8-2728b8865997)
+
+Admin dashboard:
+![image](https://github.com/user-attachments/assets/56b9b8f5-721e-408b-8138-b74821f12e33)
+
+
+
+
+
+
+
+
+
 
 
 
