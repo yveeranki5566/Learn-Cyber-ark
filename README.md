@@ -107,6 +107,63 @@ Add the account by filling out IP Address of the domain controller on which the 
 Similarly add another privileged account.
 ![image](https://github.com/user-attachments/assets/72a0db32-9a33-4783-9934-06f0dbeda01b)
 
+Use case scenario 2: There are two users and one manager in a team who would like to access the created privileged accounts in cyber ark. 
+
+In order to access the cyber ark , we will be adding these users to the cyber ark users group in the active directory.
+![image](https://github.com/user-attachments/assets/6f4c2d89-07d7-46f0-8de9-62b418b38c0a)
+
+Next , the requirement in this case is the manager should be able to see all the accounts in the cyber ark safe, so next step is to allow access for this member at safe level.
+Give access permissions to manager to all the accounts in the safe as below.
+
+![image](https://github.com/user-attachments/assets/23bf1164-eae8-41a2-9431-e3e919c3eebb)
+
+Lets add user1 and user2 to the safe but without safe level permissions.
+
+![image](https://github.com/user-attachments/assets/9755ccf7-61a6-4d0f-ae09-c78db5a3cd2f)
+
+![image](https://github.com/user-attachments/assets/18c1d5f3-01ab-470e-a1e6-3f630eb913d5)
+
+![image](https://github.com/user-attachments/assets/e668d2d9-bda0-441d-9c59-b4791ea1af80)
+
+Now we have to give access of PA1 privileged account to user1 but not other accounts, so for that follow the below steps.
+
+![image](https://github.com/user-attachments/assets/2710ac90-9e85-4688-aa4b-3fcc02395958)
+
+Set access permissions of PA1 privilege account to user1 as below.
+
+![image](https://github.com/user-attachments/assets/d90632b6-0249-4aa6-81bf-6ac4ec03b116)
+
+Similarly allow access to PA2 for user2.
+
+![image](https://github.com/user-attachments/assets/d051d3ef-9c70-44b8-b3e1-a3833bf542eb)
+
+Now lets check if these configurations are working by logging in as manager1, user1 and user 2 and observe the cyber ark dashboards respectively.
+
+For manager account all the privileged accounts on the safe are visible and can see the passwords as well.
+
+![image](https://github.com/user-attachments/assets/21b108c4-a4cf-435c-9422-9153293d04df)
+![image](https://github.com/user-attachments/assets/0806c89a-84a8-40bb-9519-614d6eb6ec6b)
+
+Where as user1 and user2 only have access to assigned privileged accounts.
+
+![image](https://github.com/user-attachments/assets/41f94a7d-5584-4bfc-b90f-855d8cef7fd2)
+
+![image](https://github.com/user-attachments/assets/d6a0937c-6513-4c82-9bd3-68856376080c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
