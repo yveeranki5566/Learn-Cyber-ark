@@ -72,6 +72,46 @@ User dashboard after loggin in
 Admin dashboard:
 ![image](https://github.com/user-attachments/assets/56b9b8f5-721e-408b-8138-b74821f12e33)
 
+Use case scenario of cyber ark:
+Secure two privileged accounts in cyberark rotating their password every 30 days.
+
+Lets create two privileged accounts in the active directory and add them to Domain admin group to make them highly privileged accounts.
+
+![image](https://github.com/user-attachments/assets/32ff1932-7e0d-441b-b426-4cfc3af4ff8e)
+
+![image](https://github.com/user-attachments/assets/b2188b97-32fa-4bdb-a3b5-8fe5828d1809)
+
+![image](https://github.com/user-attachments/assets/639e33c4-6cd5-481a-a1c3-3cf4a9b6d11c)
+
+Create an exception in the master policy for windows domain account as per the requirement.
+
+![image](https://github.com/user-attachments/assets/bb1f6133-488d-4822-92f8-0270bb8b100f)
+
+![image](https://github.com/user-attachments/assets/5c7ae0a3-0c30-459b-a3bd-afe5aae632dc)
+
+Next add a safe to on board the privileged accounts to cyber ark.
+
+![image](https://github.com/user-attachments/assets/7865bf7d-cbf5-4de7-9d39-8b291763933b)
+
+Next steps are followed to add an accountin cyberark.
+
+![image](https://github.com/user-attachments/assets/e1e2068f-6a6f-48f6-8440-73cfc29f9bb6)
+
+select the safe to store accounts.
+![image](https://github.com/user-attachments/assets/e1eddd0a-7d0d-49a2-a9ad-955e4f5326ea)
+
+Add the account by filling out IP Address of the domain controller on which the accounts are created in the active directory.
+
+![image](https://github.com/user-attachments/assets/9445a00e-0072-4a2c-b63c-9a2597c30941)
+
+Similarly add another privileged account.
+![image](https://github.com/user-attachments/assets/72a0db32-9a33-4783-9934-06f0dbeda01b)
+
+
+
+
+
+
 
 
 
