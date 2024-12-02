@@ -150,6 +150,118 @@ Where as user1 and user2 only have access to assigned privileged accounts.
 
 ![image](https://github.com/user-attachments/assets/d6a0937c-6513-4c82-9bd3-68856376080c)
 
+Next deploy PSM, privilege session manager and test its functionality.
+
+Enable monitoring and isolation policy in the master policy section for all the platforms.
+
+![image](https://github.com/user-attachments/assets/cb4bf462-b13d-423d-9694-3051bc30872c)
+![image](https://github.com/user-attachments/assets/c49dedf6-5cb3-4d01-b9b4-d92842d82197)
+
+Now, we have PSM in place, user1 can connect to PA1 without showing the password , and the user activity will be monitored and recorded.
+
+Login with user1 and click on connect and next give the details of the server to connect, click on the downloaded rdp file and connect.
+
+![image](https://github.com/user-attachments/assets/aabaa6af-0577-4779-9a6d-5a1861fa2b5d)
+
+![image](https://github.com/user-attachments/assets/e416c8be-dbec-49c8-92fb-cabdc36275a2)
+
+![image](https://github.com/user-attachments/assets/4341528b-0269-4c95-bb36-fc9345b5e152)
+
+Now, an auditor can see the recorded session of all the activities performed on PA1 account by user1 by logging into cyberark and check the logs.
+
+![image](https://github.com/user-attachments/assets/dffa5e24-553c-47de-8e9e-812169722df8)
+
+Lets open the log file and check now as an auditor.
+
+Both the activity log and recirded session and available for auditing purpose.
+
+![image](https://github.com/user-attachments/assets/80838819-3218-4a13-8e0d-ce5564a776bc)
+
+Upload priveleged accounts using Password Upload Utility:
+
+Lets upload selected five privileged accounts below into cyberark, by creating a custom password csv file.
+![image](https://github.com/user-attachments/assets/d9b463dc-a7c5-4625-98bd-4757109fb0a0)
+
+<img width="983" alt="image" src="https://github.com/user-attachments/assets/5e0e7a2d-8040-4326-9d50-4071acdb2981">
+
+![image](https://github.com/user-attachments/assets/5bf93d2d-1755-4420-81ce-45ac3b0b1dc7)
+
+Lets check on the accounts page in cyber ark if the accounts have been uploaded or not.
+
+![image](https://github.com/user-attachments/assets/38da22b3-9988-4c4f-b98f-c00c3cba85af)
+
+Reports:
+
+Login as auditor and generate reports.
+
+1. Privileged accounts Inventory report:
+
+   <img width="863" alt="image" src="https://github.com/user-attachments/assets/396b54dc-8de6-457e-836a-8477cfd5ef5a">
+
+   <img width="929" alt="image" src="https://github.com/user-attachments/assets/67c54878-b947-4d6a-b4cb-9e781e9efff0">
+
+   <img width="1919" alt="image" src="https://github.com/user-attachments/assets/ae55c2fd-c007-4a13-80cf-869a9666324f">
+
+   <img width="1361" alt="image" src="https://github.com/user-attachments/assets/748bd6a2-d3a0-490d-8ecd-15f791e4a6a3">
+
+2. Privileged accounts Compliance Status Report:
+
+   <img width="1061" alt="image" src="https://github.com/user-attachments/assets/b39e3ef9-4fe9-42e6-9267-ff52d5fe598f">
+
+   <img width="1604" alt="image" src="https://github.com/user-attachments/assets/22dfef7c-a8e5-47af-8b5b-2facda8e9a9a">
+
+**3. Entitlement Report:**
+
+   <img width="1246" alt="image" src="https://github.com/user-attachments/assets/a2b20e22-02de-4ad0-b746-44bb57c6308b">
+
+   <img width="1919" alt="image" src="https://github.com/user-attachments/assets/3e140184-1cdf-47a9-b05e-421f098d2ad9">
+
+   <img width="1772" alt="image" src="https://github.com/user-attachments/assets/08cdc311-b3d5-4b94-a459-26ecd7fcd6f9">
+
+**4.   Activity Log Report:**
+
+<img width="580" alt="image" src="https://github.com/user-attachments/assets/0e2d81ce-b3a3-4489-bc82-725645214f45">
+
+<img width="863" alt="image" src="https://github.com/user-attachments/assets/83de6761-277e-4e9d-95fd-f3bcd162b1ca">
+
+<img width="1305" alt="image" src="https://github.com/user-attachments/assets/906fe3cc-b8a3-4740-898c-37ad0a6042d5">
+
+**Lets filter User1 activity:**
+
+<img width="1445" alt="image" src="https://github.com/user-attachments/assets/17ffa5c7-158c-44e5-821c-a3892ae34ff8">
+
+**Next check what kind of activity is done on Privileged account PA1:**
+
+<img width="1387" alt="image" src="https://github.com/user-attachments/assets/42d36463-d64d-4310-8f2c-057028a8f697">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
