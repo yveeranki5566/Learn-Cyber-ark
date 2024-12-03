@@ -260,6 +260,39 @@
 
  <img width="1508" alt="image" src="https://github.com/user-attachments/assets/3a9bfca2-36fe-438d-b846-df87119f20c7">
 
+**Connectivity Issues like network path not found:** 
+There reasons might be that the target system is under maintenance or shutdown, or Target system is decommissioned or out of service, or there could be firewall restrictions when the target server is not on the same network.
+
+The resolutions for the above problems are re triggering the password management operation when the server is up and running, remove the account from cyber ark when it is no longer in use, Allow firewall ports (exceptions) from CPM to the target system. 
+
+**Unknown issues**:
+
+First the standard approach for unknown issues would be to check the logs at the below location.
+
+C:\Program Files (x86)\CyberArk\Password Manager\Logs.
+
+If the logs dont give us enough details, increase the debug level of logs in the configuration settings in PVWA server.
+
+![image](https://github.com/user-attachments/assets/5d3e3f85-c854-4546-8a96-078b284d9024)
+
+**Disaster Recover ( DR Vault)**:
+A fresh replica vault is built, and configure auto replication between the primary vault and the newly created DR Vault. Configure all the components (PVWA, PSM, CPM) to communicate to DR in case the primary vault is impacted.
+
+![image](https://github.com/user-attachments/assets/e576e61d-fb98-4d00-ae07-837661adf515)
+
+Install DR utility which automatically login into primary vault and pull the data.
+
+Primary Vault settings: 
+
+![image](https://github.com/user-attachments/assets/4ba76534-9b28-45e9-bf4b-7ef98c1f4150)
+
+![image](https://github.com/user-attachments/assets/f367575f-e6de-4020-8c69-7e442449ef02)
+
+
+
+
+
+
 
  
 
