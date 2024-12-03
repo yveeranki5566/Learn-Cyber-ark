@@ -284,9 +284,10 @@ Install DR utility which automatically login into primary vault and pull the dat
 
 Primary Vault settings: 
 
-![image](https://github.com/user-attachments/assets/4ba76534-9b28-45e9-bf4b-7ef98c1f4150)
+![image](https://github.com/user-attachments/assets/9ee7a8a4-a8f1-4082-90d1-3dcb99698840)
 
-![image](https://github.com/user-attachments/assets/f367575f-e6de-4020-8c69-7e442449ef02)
+![image](https://github.com/user-attachments/assets/283c9c4c-43b2-4bcd-9c39-37760eb18371)
+
 
 
 
