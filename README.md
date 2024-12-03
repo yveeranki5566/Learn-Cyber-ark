@@ -252,6 +252,15 @@
 
 <img width="1387" alt="image" src="https://github.com/user-attachments/assets/42d36463-d64d-4310-8f2c-057028a8f697">
 
+Password Management issues solution : Reconciliation account.
+
+1. **Add a reconciliation account and associate it with a privileged account so that when verfification fails, CPM uses reconciliation account to login and reset the password to resolve the issue.**
+
+ <img width="1562" alt="image" src="https://github.com/user-attachments/assets/d39bdace-d415-46fd-8618-6f5e5d195237">
+
+ <img width="1508" alt="image" src="https://github.com/user-attachments/assets/3a9bfca2-36fe-438d-b846-df87119f20c7">
+
+ 
 
 
 
