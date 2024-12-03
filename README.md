@@ -280,13 +280,56 @@ A fresh replica vault is built, and configure auto replication between the prima
 
 ![image](https://github.com/user-attachments/assets/e576e61d-fb98-4d00-ae07-837661adf515)
 
-Install DR utility which automatically login into primary vault and pull the data.
+Install DR utility which automatically login into primary vault and pull the data and replicate the data from the primary vault.
 
 Primary Vault settings: 
 
 ![image](https://github.com/user-attachments/assets/9ee7a8a4-a8f1-4082-90d1-3dcb99698840)
 
-![image](https://github.com/user-attachments/assets/283c9c4c-43b2-4bcd-9c39-37760eb18371)
+Replication is successful.
+
+![image](https://github.com/user-attachments/assets/2666f5c3-bc51-4955-b8c5-ce5b4e696e93)
+
+PADR Configuration file:
+
+<img width="310" alt="image" src="https://github.com/user-attachments/assets/1f8ab64e-7588-467d-a12a-cb3c7715c698">
+
+Disaster recovery configuration file Notes :
+
+Enable replicate= Yes (Automatic replication)
+Enable Failover = Yes(Automatic switch over when primary vault is not working)
+Check Interval = 60 (It checks regularly if Primary Vault is Up)
+Replicate Interval = 3600s (Every single hour complete replication will takes place)
+Access vault for Inactivity= Yes
+
+Add DR vault IP address as secondary vault address in the Vault info configuration file so if in case primary vault is not accessible, PVWA will access DR vault.
+
+![image](https://github.com/user-attachments/assets/9043a15d-fa29-431c-b50b-7daff3a4ba38)
+
+**Event Notification Engine**
+Set Up Wizard
+
+![image](https://github.com/user-attachments/assets/9c17ef97-7a5a-4e17-8334-51925b2c0f92)
+
+Vault Setup
+
+![image](https://github.com/user-attachments/assets/705667e6-6f51-42c7-8455-fd631c5d2d7e)
+
+SMPTP INTEGRATION:
+
+![image](https://github.com/user-attachments/assets/a7a86d49-a11f-4e6a-8a07-08da7b8c7e18)
+
+Customize Event Notification Engine:
+
+![image](https://github.com/user-attachments/assets/743ab821-afe2-4e91-b8b8-d3766765b3c5)
+
+![image](https://github.com/user-attachments/assets/d360eda9-d9b7-427e-aa62-e8fbbcf94101)
+
+
+
+
+
+
 
 
 
